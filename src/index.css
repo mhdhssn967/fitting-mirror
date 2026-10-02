@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --color-paper: #fafaf8;
+  --color-ink: #141414;
+  --color-line: #e6e4df;
+}
+
+html, body, #root { height: 100%; }
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); overflow: hidden; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; }
